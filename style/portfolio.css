@@ -1,9 +1,11 @@
+/* Global  */
 body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Open Sans', sans-serif;
     padding: 0;
     margin: 0;
 }
+/* Start nav bar  */
 
 nav{
     display: flex;
@@ -54,45 +56,48 @@ nav .btn-primary{
     padding: 15px 30px;
     cursor: pointer;
 }
+/* End Nav Bar */
 
-
+/* Start Banner Section */
 .header{
     background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 100%;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
 }
 
 .banner-greeting{
     color: #474747;
-    font-family: Open Sans;
     font-size: 45px;
-    font-style: normal;
     font-weight: 600;
 }
 
 .banner-title{
     color: #181818;
-    font-family: Open Sans;
     font-size: 70px;
-    font-style: normal;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .banner p{
     display: flex;
-    width: 585px;
-    flex-direction: column;
-    flex-shrink: 0;
     color: #757575;
-    font-family: Open Sans;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 0;
 }
 
 .download-cv{
@@ -115,6 +120,7 @@ nav .btn-primary{
     margin-left: 25px;
     content: #FD6E0A;
 }
-.banner img{
+.banner-img1{
     width: 400px;
 }
+/* End Banner Section */
