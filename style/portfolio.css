@@ -70,10 +70,8 @@ nav .btn-primary{
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right, left center;
+    background-position: bottom right, 25px center;
     background-size: 600px, 70px;
-    
-    
 }
 
 .banner{
